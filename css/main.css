@@ -1,5 +1,13 @@
 /* main css for portfolio site */
 
 * {
+	/* includes padding and border within element sizing */
 	box-sizing: border-box;
+}
+
+
+.container {
+	/* A trick to centralize a box content */
+	width: 970px;
+	margin: 0 auto;
 }
