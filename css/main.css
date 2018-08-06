@@ -6,7 +6,7 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: "helvetica";
+	font-family: "raleway", "helvetica", "sans-serif";
 
 }
 
@@ -70,9 +70,22 @@
 	width: 100%;
 }
 
-
+h1, h2, h3, h4 {
+	font-weight: lighter;
+}
 .author-name, .author-bio {
 	text-align: right;
+	text-transform: uppercase;
+}
+
+.featured-work>h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.featured-work>p {
+	text-align: center;
+	font-size: .8em;
 }
 
 .aside-colors {
@@ -80,15 +93,6 @@
 	right: 200px;
 }
 
-.color-box {
-	width: 60px;
-	height: 60px;
-}
-
-.color-box {
-	width: 60px;
-	height: 60px;
-}
 
 .color-box {
 	width: 60px;
@@ -110,4 +114,10 @@
 
 .color-hex {
 	font-weight: lighter;
+	font-size: .8em;
+	text-align: center;
+}
+
+a {
+	color: grey;
 }
