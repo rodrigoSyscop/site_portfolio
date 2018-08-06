@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 
 	<title>Site Portfolio</title>
@@ -10,9 +10,11 @@
 <body>
 <div class="container">
 	<!-- header: logo and name -->
-	<header>
-		<img class="company-brand" src="#" alt="OperacionalTI logo" />
-		<hgroup>
+	<header class="row">
+		<div class="col-6">
+			<img class="company-brand" src="http://via.placeholder.com/300x100" alt="OperacionalTI logo" />
+		</div>
+		<hgroup class="col-6">
 			<h1 class="author-name">Rodrigo Vieira</h1>
 			<h2 class="author-bio">Front-End Ninja</h2>
 		</hgroup>
@@ -20,48 +22,53 @@
 
 	<hr>
 	<!-- side menu: default colors -->
-	<aside class="aside-colors">
-		<div class="yellow-box">yellow box</div>
-		<div class="color-hex">#f9c706</div>
+	<aside class="row aside-colors">
+		<div class="col-1">
+			<div class="color-box yellow">&nbsp;</div>
+			<div class="color-hex">#f9c706</div>
 
-		<div class="dark-box">dark box</div>
-		<div class="color-hex">#424242</div>
+			<div class="color-box dark">&nbsp;</div>
+			<div class="color-hex">#424242</div>
 
-		<div class="grey-box">grey box</div>
-		<div class="color-hex">#f3f3f3</div>
+			<div class="color-box grey">&nbsp;</div>
+			<div class="color-hex">#f3f3f3</div>
+		</div>
 	</aside>
 
 	<!-- main content -->
 	<main role="main">
 
 		<!-- cover image -->
-		<div class="cover-image">
-			<img src="#" alt="cover image" />
+		<div class="row cover-image">
+			<div class="col-12">
+				<img src="http://via.placeholder.com/960x350" alt="cover image" />
+			</div>
 		</div>
 
 		<!-- featured work section -->
-		<div>
-			<h1 class="featured-work-header">Featured Work</h1>
-
+		<div class="row">
+			<h1 class="col-12 featured-work-header">Featured Work</h1>
+		</div>
+		<div class="row">
 			<!-- section: training -->
-			<section class="featured-work">
-				<img src="#" alt="training" />
+			<section class="col-4 featured-work">
+				<img src="http://via.placeholder.com/320x200" alt="training" />
 				<h1>Training</h1>
 				<p>
 					<a href="#">https://operacionalti.com/training</a>
 				</p>
 			</section>
 
-			<section class="featured-work">
-				<img src="#" alt="Support" />
+			<section class="col-4 featured-work">
+				<img src="http://via.placeholder.com/320x200" alt="Support" />
 				<h1>Support</h1>
 				<p>
 					<a href="#">https://operacionalti.com/support</a>
 				</p>
 			</section>
 
-			<section class="featured-work">
-				<img src="#" alt="consulting" />
+			<section class="col-4 featured-work">
+				<img src="http://via.placeholder.com/320x200" alt="consulting" />
 				<h1>Consulting</h1>
 				<p>
 					<a href="#">https://operacionalti.com/consulting</a>
