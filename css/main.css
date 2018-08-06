@@ -7,7 +7,6 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: "raleway", "helvetica", "sans-serif";
-
 }
 
 .container {
@@ -76,6 +75,11 @@ h1, h2, h3, h4 {
 .author-name, .author-bio {
 	text-align: right;
 	text-transform: uppercase;
+	color: #424242;
+}
+
+.featured-work-header {
+	color: #424242;
 }
 
 .featured-work>h1 {
@@ -86,6 +90,7 @@ h1, h2, h3, h4 {
 .featured-work>p {
 	text-align: center;
 	font-size: .8em;
+	color: #424242;
 }
 
 .aside-colors {
