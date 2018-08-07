@@ -194,6 +194,10 @@ nav a, button {
 	.col-sm-12 {
 		width: 100%;
 	}
+
+	.title-super {
+	font-size: 1.8em;
+	}
 }
 
 /* styles for >= medium screens - md */
@@ -258,5 +262,9 @@ nav a, button {
 
 	.col-lg-12 {
 		width: 100%;
+	}
+
+	.title-super {
+		font-size: 2.6em;
 	}
 }
