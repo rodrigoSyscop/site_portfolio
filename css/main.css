@@ -12,7 +12,7 @@
 .container {
 	/* A trick to centralize a box content */
 	margin: 0 auto;
-	width: 960px;
+	width: 95%;
 	max-width: : 1200px;
 }
 
@@ -72,19 +72,30 @@
 h1, h2, h3, h4 {
 	font-weight: lighter;
 }
-.author-name, .author-bio {
+
+.text-right {
 	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-uppercase {
 	text-transform: uppercase;
+}
+
+.header {
 	color: #424242;
+}
+
+.img-fluid {
+	width: 100%;
+	height: auto;
 }
 
 .featured-work-header {
 	color: #424242;
-}
-
-.featured-work>h1 {
-	text-transform: uppercase;
-	text-align: center;
 }
 
 .featured-work>p {
