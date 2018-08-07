@@ -101,11 +101,6 @@ body {
 	text-transform: uppercase;
 }
 
-.img-fluid {
-	width: 100%;
-	height: auto;
-}
-
 .featured-work>p {
 	text-align: center;
 	font-size: .8em;
@@ -126,4 +121,9 @@ hr {
     height: 1px;
     color: #7d97ad;
     background-color: #7d97ad;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+	height: auto;
 }
