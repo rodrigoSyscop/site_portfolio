@@ -1,7 +1,12 @@
-/* main css for portfolio site */
+/*
+ * Main CSS for Udacity Portfolio Site's lesson
+ *
+ * Author: rodrigodelimavieira@gmail.com
+ */
+
+ /* Site defaults */
 
 * {
-	/* includes padding and border within element sizing */
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -11,12 +16,11 @@
 body {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
-	color: #2d3c49;
+	color: #424242;
 	background-color: #f3f3f3;
 }
 
-
-/* Styles for extra-small screens - xs (this is the default) */
+/* extra small screens - xs (default) */
 
 .container {
 	margin: 0 auto;
@@ -85,12 +89,13 @@ body {
 	margin-top: 20px;
 	width: 90px;
 }
+
 .text-thin {
 	font-weight: 100;
 }
 
 .text-muted {
-	color: #7d97ad;
+	color: #f9c706;
 }
 
 .text-right {
@@ -116,15 +121,16 @@ body {
 }
 
 a {
-	color: #7d97ad;
+	color: #938200;
+
 }
 
 hr {
     border: none;
     margin: 10px 0 20px 0;
     height: 1px;
-    color: #7d97ad;
-    background-color: #7d97ad;
+    color: #f9c706;
+    background-color: #f9c706;
 }
 
 img, embed, object, video {
@@ -137,15 +143,17 @@ img, embed, object, video {
 	margin-left: 5px;
 	width: calc((100% - 10px/2));
 }
+
 .work-img:first-of-type {
 	margin-left: 0;
 }
+
 .work-img:last-of-type {
 	margin-right: 0;
 }
 
-/* Tap devices need extra space and larger buttons */
 nav a, button {
+	/* Tap devices need extra space and larger buttons */
 	margin: 40px;
 	min-width: 48px;
 	min-height: 48px;
@@ -159,9 +167,10 @@ nav a, button {
 	vertical-align: middle;
 }
 
-/* styles for small screens - sm */
+/* styles for small screens - sm (>= 500px) */
 
 @media screen and (min-width: 500px) {
+
 	.row {
 		width: 100%;
 		display: flex;
@@ -226,9 +235,10 @@ nav a, button {
 	}
 }
 
-/* styles for >= medium screens - md */
+/* styles for >= medium screens - md (>=760px) */
 
 @media screen and (min-width: 760px) {
+
 	.container {
 		/* A trick to centralize a box content */
 		margin: 0 auto;
