@@ -22,4 +22,4 @@ Given a pdf mockup of a website from a designer, translate it to a real website 
 
 ## Submitted project
 
-![Submitted Project](/images/submitted_project.png)
+![Submitted Project](/images/submitted_project.jpg)
