@@ -18,3 +18,8 @@ Given a pdf mockup of a website from a designer, translate it to a real website 
 
 - [https://review.udacity.com/#!/rubrics/45/view](https://review.udacity.com/#!/rubrics/45/view).
 - [http://udacity.github.io/frontend-nanodegree-styleguide/index.html](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
+
+
+## Submitted project
+
+![Submitted Project](/images/submitted_project.png)
